@@ -1,0 +1,14 @@
+{
+    "Darius": {
+      "role": "Top",
+      "starting_items": ["Doran's Shield", "Health Potion"],
+      "core_build": ["Stridebreaker", "Plated Steelcaps", "Sterak's Gage"],
+      "situational": ["Dead Man's Plate", "Spirit Visage", "Death's Dance"]
+    },
+    "Ahri": {
+      "role": "Mid",
+      "starting_items": ["Doran's Ring", "Health Potion"],
+      "core_build": ["Malignance", "Sorcerer's Shoes", "Shadowflame"],
+      "situational": ["Zhonya's Hourglass", "Rabadon's Deathcap", "Void Staff"]
+    }
+  }
