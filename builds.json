@@ -1,14 +1,3088 @@
 {
-    "Darius": {
-      "role": "Top",
-      "starting_items": ["Doran's Shield", "Health Potion"],
-      "core_build": ["Stridebreaker", "Plated Steelcaps", "Sterak's Gage"],
-      "situational": ["Dead Man's Plate", "Spirit Visage", "Death's Dance"]
+    "Aatrox": {
+        "role": "Top",
+        "starting_items": [
+            "Doran's Shield",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Spear of Shojin",
+            "Sundered Sky",
+            "Death's Dance"
+        ],
+        "boots": "Plated Steelcaps",
+        "situational": [
+            "Endless Hunger",
+            "Guardian Angel",
+            "Youmuu's Ghostblade"
+        ]
     },
     "Ahri": {
-      "role": "Mid",
-      "starting_items": ["Doran's Ring", "Health Potion"],
-      "core_build": ["Malignance", "Sorcerer's Shoes", "Shadowflame"],
-      "situational": ["Zhonya's Hourglass", "Rabadon's Deathcap", "Void Staff"]
+        "role": "Mid",
+        "starting_items": [
+            "Doran's Ring",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Malignance",
+            "Sorcerer's Shoes",
+            "Shadowflame"
+        ],
+        "boots": "Sorcerer's Shoes",
+        "situational": [
+            "Zhonya's Hourglass",
+            "Rabadon's Deathcap",
+            "Void Staff"
+        ]
+    },
+    "Akali": {
+        "role": "Mid",
+        "starting_items": [
+            "Doran's Ring",
+            "Health Potion",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Hextech Gunblade",
+            "Shadowflame",
+            "Zhonya's Hourglass"
+        ],
+        "boots": "Sorcerer's Shoes",
+        "situational": [
+            "Mejai's Soulstealer",
+            "Rabadon's Deathcap",
+            "Lich Bane"
+        ]
+    },
+    "Akshan": {
+        "role": "Mid",
+        "starting_items": [
+            "Doran's Blade",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Voltaic Cyclosword",
+            "Stormrazor",
+            "Lord Dominik's Regards"
+        ],
+        "boots": "Gluttonous Greaves",
+        "situational": [
+            "Lord Dominik's Regards",
+            "Guardian Angel",
+            "Youmuu's Ghostblade"
+        ]
+    },
+    "Alistar": {
+        "role": "Support",
+        "starting_items": [
+            "Health Potion",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Locket of the Iron Solari",
+            "Zeke's Convergence",
+            "Knight's Vow"
+        ],
+        "boots": "Boots of Swiftness",
+        "situational": [
+            "Knight's Vow",
+            "Kaenic Rookern",
+            "Thornmail"
+        ]
+    },
+    "Ambessa": {
+        "role": "Jungle",
+        "starting_items": [
+            "Scorchclaw Pup",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Hubris",
+            "Axiom Arc",
+            "Death's Dance"
+        ],
+        "boots": "Plated Steelcaps",
+        "situational": [
+            "Endless Hunger",
+            "Guardian Angel",
+            "Guardian Angel"
+        ]
+    },
+    "Amumu": {
+        "role": "Jungle",
+        "starting_items": [
+            "Mosstomper Seedling",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Liandry's Torment",
+            "Sunfire Aegis",
+            "Abyssal Mask"
+        ],
+        "boots": "Plated Steelcaps",
+        "situational": [
+            "Jak'Sho, The Protean",
+            "Kaenic Rookern",
+            "Frozen Heart"
+        ]
+    },
+    "Anivia": {
+        "role": "Mid",
+        "starting_items": [
+            "Doran's Ring",
+            "Health Potion",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Tear of the Goddess",
+            "Rod of Ages",
+            "Seraph's Embrace"
+        ],
+        "boots": "Sorcerer's Shoes",
+        "situational": [
+            "Zhonya's Hourglass",
+            "Zhonya's Hourglass",
+            "Rabadon's Deathcap"
+        ]
+    },
+    "Annie": {
+        "role": "Mid",
+        "starting_items": [
+            "Doran's Ring",
+            "Health Potion",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Malignance",
+            "Stormsurge",
+            "Shadowflame"
+        ],
+        "boots": "Sorcerer's Shoes",
+        "situational": [
+            "Rabadon's Deathcap",
+            "Banshee's Veil",
+            "Rabadon's Deathcap"
+        ]
+    },
+    "Aphelios": {
+        "role": "Bottom",
+        "starting_items": [
+            "Doran's Blade",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Hexoptics C44",
+            "Infinity Edge",
+            "Lord Dominik's Regards"
+        ],
+        "boots": "Berserker's Greaves",
+        "situational": [
+            "Phantom Dancer",
+            "Guardian Angel",
+            "Guardian Angel"
+        ]
+    },
+    "Ashe": {
+        "role": "Bottom",
+        "starting_items": [
+            "Doran's Blade",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Hexoptics C44",
+            "Phantom Dancer",
+            "Infinity Edge"
+        ],
+        "boots": "Berserker's Greaves",
+        "situational": [
+            "Bloodthirster",
+            "Guardian Angel",
+            "Guardian Angel"
+        ]
+    },
+    "AurelionSol": {
+        "role": "Mid",
+        "starting_items": [
+            "Doran's Ring",
+            "Health Potion",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Blackfire Torch",
+            "Rylai's Crystal Scepter",
+            "Liandry's Torment"
+        ],
+        "boots": "Sorcerer's Shoes",
+        "situational": [
+            "Bloodletter's Curse",
+            "Zhonya's Hourglass",
+            "Banshee's Veil"
+        ]
+    },
+    "Aurora": {
+        "role": "Middle",
+        "starting_items": [
+            "Doran's Ring",
+            "Health Potion",
+            "Dark Seal"
+        ],
+        "core_build": [
+            "Hextech Rocketbelt",
+            "Shadowflame",
+            "Rabadon's Deathcap"
+        ],
+        "boots": "Sorcerer's Shoes",
+        "situational": [
+            "Rabadon's Deathcap",
+            "Zhonya's Hourglass",
+            "Void Staff"
+        ]
+    },
+    "Azir": {
+        "role": "Mid",
+        "starting_items": [
+            "Doran's Ring",
+            "Health Potion",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Nashor's Tooth",
+            "Shadowflame",
+            "Rabadon's Deathcap"
+        ],
+        "boots": "Sorcerer's Shoes",
+        "situational": [
+            "Zhonya's Hourglass",
+            "Rylai's Crystal Scepter",
+            "Banshee's Veil"
+        ]
+    },
+    "Bard": {
+        "role": "Support",
+        "starting_items": [
+            "Health Potion",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Dead Man's Plate",
+            "Bandlepipes",
+            "Locket of the Iron Solari"
+        ],
+        "boots": "Boots of Swiftness",
+        "situational": [
+            "Bandlepipes",
+            "Liandry's Torment",
+            "Mikael's Blessing"
+        ]
+    },
+    "Belveth": {
+        "role": "Jungle",
+        "starting_items": [
+            "Gustwalker Hatchling",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Kraken Slayer",
+            "Stridebreaker",
+            "Death's Dance"
+        ],
+        "boots": "Plated Steelcaps",
+        "situational": [
+            "Death's Dance",
+            "Wit's End",
+            "Terminus"
+        ]
+    },
+    "Blitzcrank": {
+        "role": "Support",
+        "starting_items": [
+            "Health Potion",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Locket of the Iron Solari",
+            "Zeke's Convergence",
+            "Bandlepipes"
+        ],
+        "boots": "Boots of Swiftness",
+        "situational": [
+            "Shurelya's Battlesong",
+            "Randuin's Omen",
+            "Redemption"
+        ]
+    },
+    "Brand": {
+        "role": "Support",
+        "starting_items": [
+            "Health Potion",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Rylai's Crystal Scepter",
+            "Liandry's Torment",
+            "Blackfire Torch"
+        ],
+        "boots": "Sorcerer's Shoes",
+        "situational": [
+            "Zhonya's Hourglass",
+            "Zhonya's Hourglass",
+            "Void Staff"
+        ]
+    },
+    "Braum": {
+        "role": "Support",
+        "starting_items": [
+            "Health Potion",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Bandlepipes",
+            "Locket of the Iron Solari",
+            "Knight's Vow"
+        ],
+        "boots": "Plated Steelcaps",
+        "situational": [
+            "Protoplasm Harness",
+            "Knight's Vow",
+            "Thornmail"
+        ]
+    },
+    "Briar": {
+        "role": "Jungle",
+        "starting_items": [
+            "Gustwalker Hatchling",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Blade of The Ruined King",
+            "Black Cleaver",
+            "Death's Dance"
+        ],
+        "boots": "Plated Steelcaps",
+        "situational": [
+            "Guardian Angel",
+            "Guardian Angel",
+            "Guardian Angel"
+        ]
+    },
+    "Caitlyn": {
+        "role": "Bottom",
+        "starting_items": [
+            "Doran's Blade",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Hexoptics C44",
+            "Infinity Edge",
+            "Rapid Firecannon"
+        ],
+        "boots": "Berserker's Greaves",
+        "situational": [
+            "Lord Dominik's Regards",
+            "Guardian Angel",
+            "Guardian Angel"
+        ]
+    },
+    "Camille": {
+        "role": "Top",
+        "starting_items": [
+            "Doran's Blade",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Trinity Force",
+            "Ravenous Hydra",
+            "Death's Dance"
+        ],
+        "boots": "Plated Steelcaps",
+        "situational": [
+            "Guardian Angel",
+            "Guardian Angel",
+            "Spear of Shojin"
+        ]
+    },
+    "Cassiopeia": {
+        "role": "Mid",
+        "starting_items": [
+            "Doran's Ring",
+            "Health Potion",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Tear of the Goddess",
+            "Rod of Ages",
+            "Seraph's Embrace"
+        ],
+        "boots": "Sorcerer's Shoes",
+        "situational": [
+            "Rabadon's Deathcap",
+            "Morellonomicon",
+            "Zhonya's Hourglass"
+        ]
+    },
+    "Chogath": {
+        "role": "Top",
+        "starting_items": [
+            "Doran's Ring",
+            "Health Potion",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Hextech Rocketbelt",
+            "Riftmaker",
+            "Dead Man's Plate"
+        ],
+        "boots": "Plated Steelcaps",
+        "situational": [
+            "Kaenic Rookern",
+            "Unending Despair",
+            "Dead Man's Plate"
+        ]
+    },
+    "Corki": {
+        "role": "Bottom",
+        "starting_items": [
+            "Doran's Blade",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Tear of the Goddess",
+            "Trinity Force",
+            "Muramana"
+        ],
+        "boots": "Plated Steelcaps",
+        "situational": [
+            "Hexoptics C44",
+            "Lord Dominik's Regards",
+            "Guardian Angel"
+        ]
+    },
+    "Darius": {
+        "role": "Top",
+        "starting_items": [
+            "Doran's Shield",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Stridebreaker",
+            "Plated Steelcaps",
+            "Sterak's Gage"
+        ],
+        "boots": "Plated Steelcaps",
+        "situational": [
+            "Dead Man's Plate",
+            "Spirit Visage",
+            "Death's Dance"
+        ]
+    },
+    "Diana": {
+        "role": "Mid",
+        "starting_items": [
+            "Doran's Ring",
+            "Health Potion",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Stormsurge",
+            "Shadowflame",
+            "Zhonya's Hourglass"
+        ],
+        "boots": "Sorcerer's Shoes",
+        "situational": [
+            "Mejai's Soulstealer",
+            "Zhonya's Hourglass",
+            "Void Staff"
+        ]
+    },
+    "DrMundo": {
+        "role": "Top",
+        "starting_items": [
+            "Doran's Shield",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Warmog's Armor",
+            "Heartsteel",
+            "Titanic Hydra"
+        ],
+        "boots": "Boots of Swiftness",
+        "situational": [
+            "Overlord's Bloodmail",
+            "Titanic Hydra",
+            "Dead Man's Plate"
+        ]
+    },
+    "Draven": {
+        "role": "Bottom",
+        "starting_items": [
+            "Doran's Blade",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Hubris",
+            "Hexoptics C44",
+            "Infinity Edge"
+        ],
+        "boots": "Berserker's Greaves",
+        "situational": [
+            "Hexoptics C44",
+            "Lord Dominik's Regards",
+            "Guardian Angel"
+        ]
+    },
+    "Ekko": {
+        "role": "Jungle",
+        "starting_items": [
+            "Scorchclaw Pup",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Dusk and Dawn",
+            "Shadowflame",
+            "Rabadon's Deathcap"
+        ],
+        "boots": "Sorcerer's Shoes",
+        "situational": [
+            "Mejai's Soulstealer",
+            "Mejai's Soulstealer",
+            "Zhonya's Hourglass"
+        ]
+    },
+    "Elise": {
+        "role": "Jungle",
+        "starting_items": [
+            "Scorchclaw Pup",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Stormsurge",
+            "Shadowflame",
+            "Zhonya's Hourglass"
+        ],
+        "boots": "Sorcerer's Shoes",
+        "situational": [
+            "Rabadon's Deathcap",
+            "Void Staff",
+            "Lich Bane"
+        ]
+    },
+    "Evelynn": {
+        "role": "Jungle",
+        "starting_items": [
+            "Gustwalker Hatchling",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Lich Bane",
+            "Mejai's Soulstealer",
+            "Rabadon's Deathcap"
+        ],
+        "boots": "Sorcerer's Shoes",
+        "situational": [
+            "Mejai's Soulstealer",
+            "Mejai's Soulstealer",
+            "Zhonya's Hourglass"
+        ]
+    },
+    "Ezreal": {
+        "role": "Bottom",
+        "starting_items": [
+            "Doran's Blade",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Tear of the Goddess",
+            "Trinity Force",
+            "Muramana"
+        ],
+        "boots": "Ionian Boots of Lucidity",
+        "situational": [
+            "Spear of Shojin",
+            "Endless Hunger",
+            "Guardian Angel"
+        ]
+    },
+    "Fiddlesticks": {
+        "role": "Jungle",
+        "starting_items": [
+            "Gustwalker Hatchling"
+        ],
+        "core_build": [
+            "Malignance",
+            "Liandry's Torment",
+            "Zhonya's Hourglass"
+        ],
+        "boots": "Sorcerer's Shoes",
+        "situational": [
+            "Rabadon's Deathcap",
+            "Zhonya's Hourglass",
+            "Hextech Rocketbelt"
+        ]
+    },
+    "Fiora": {
+        "role": "Top",
+        "starting_items": [
+            "Doran's Blade",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Ravenous Hydra",
+            "Trinity Force",
+            "Death's Dance"
+        ],
+        "boots": "Plated Steelcaps",
+        "situational": [
+            "Endless Hunger",
+            "Guardian Angel",
+            "Endless Hunger"
+        ]
+    },
+    "Fizz": {
+        "role": "Mid",
+        "starting_items": [
+            "Doran's Ring",
+            "Health Potion",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Lich Bane",
+            "Zhonya's Hourglass",
+            "Rabadon's Deathcap"
+        ],
+        "boots": "Sorcerer's Shoes",
+        "situational": [
+            "Zhonya's Hourglass",
+            "Mejai's Soulstealer",
+            "Void Staff"
+        ]
+    },
+    "Galio": {
+        "role": "Mid",
+        "starting_items": [
+            "Doran's Ring",
+            "Health Potion",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Hollow Radiance",
+            "Riftmaker",
+            "Zhonya's Hourglass"
+        ],
+        "boots": "Mercury's Treads",
+        "situational": [
+            "Zhonya's Hourglass",
+            "Zhonya's Hourglass",
+            "Rabadon's Deathcap"
+        ]
+    },
+    "Gangplank": {
+        "role": "Top",
+        "starting_items": [
+            "Doran's Blade",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Essence Reaver",
+            "The Collector",
+            "Infinity Edge"
+        ],
+        "boots": "Plated Steelcaps",
+        "situational": [
+            "Lord Dominik's Regards",
+            "Voltaic Cyclosword",
+            "Youmuu's Ghostblade"
+        ]
+    },
+    "Garen": {
+        "role": "Top",
+        "starting_items": [
+            "Doran's Shield",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Stridebreaker",
+            "Phantom Dancer",
+            "Mortal Reminder"
+        ],
+        "boots": "Berserker's Greaves",
+        "situational": [
+            "Spear of Shojin",
+            "Death's Dance",
+            "Guardian Angel"
+        ]
+    },
+    "Gnar": {
+        "role": "Top",
+        "starting_items": [
+            "Doran's Blade",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Trinity Force",
+            "Black Cleaver",
+            "Sterak's Gage"
+        ],
+        "boots": "Plated Steelcaps",
+        "situational": [
+            "Randuin's Omen",
+            "Thornmail",
+            "Jak'Sho, The Protean"
+        ]
+    },
+    "Gragas": {
+        "role": "Top",
+        "starting_items": [
+            "Doran's Ring",
+            "Health Potion",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Tear of the Goddess",
+            "Rod of Ages",
+            "Fimbulwinter"
+        ],
+        "boots": "Ionian Boots of Lucidity",
+        "situational": [
+            "Lich Bane",
+            "Lich Bane",
+            "Zhonya's Hourglass"
+        ]
+    },
+    "Graves": {
+        "role": "Jungle",
+        "starting_items": [
+            "Scorchclaw Pup",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Hubris",
+            "The Collector",
+            "Lord Dominik's Regards"
+        ],
+        "boots": "Plated Steelcaps",
+        "situational": [
+            "Lord Dominik's Regards",
+            "Guardian Angel",
+            "Guardian Angel"
+        ]
+    },
+    "Gwen": {
+        "role": "Top",
+        "starting_items": [
+            "Doran's Ring",
+            "Health Potion",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Dusk and Dawn",
+            "Shadowflame",
+            "Rabadon's Deathcap"
+        ],
+        "boots": "Plated Steelcaps",
+        "situational": [
+            "Shadowflame",
+            "Rabadon's Deathcap",
+            "Stormsurge"
+        ]
+    },
+    "Hecarim": {
+        "role": "Jungle",
+        "starting_items": [
+            "Gustwalker Hatchling"
+        ],
+        "core_build": [
+            "Spear of Shojin",
+            "Black Cleaver",
+            "Death's Dance"
+        ],
+        "boots": "Ionian Boots of Lucidity",
+        "situational": [
+            "Serylda's Grudge",
+            "Serylda's Grudge",
+            "Guardian Angel"
+        ]
+    },
+    "Heimerdinger": {
+        "role": "Top",
+        "starting_items": [
+            "Doran's Ring",
+            "Health Potion",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Blackfire Torch",
+            "Liandry's Torment",
+            "Zhonya's Hourglass"
+        ],
+        "boots": "Sorcerer's Shoes",
+        "situational": [
+            "Shadowflame",
+            "Void Staff",
+            "Stormsurge"
+        ]
+    },
+    "Hwei": {
+        "role": "Mid",
+        "starting_items": [
+            "Doran's Ring",
+            "Health Potion",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Blackfire Torch",
+            "Liandry's Torment",
+            "Shadowflame"
+        ],
+        "boots": "Sorcerer's Shoes",
+        "situational": [
+            "Shadowflame",
+            "Cryptbloom",
+            "Cosmic Drive"
+        ]
+    },
+    "Illaoi": {
+        "role": "Top",
+        "starting_items": [
+            "Doran's Blade",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Black Cleaver",
+            "Iceborn Gauntlet",
+            "Sterak's Gage"
+        ],
+        "boots": "Plated Steelcaps",
+        "situational": [
+            "Sterak's Gage",
+            "Thornmail",
+            "Spirit Visage"
+        ]
+    },
+    "Irelia": {
+        "role": "Top",
+        "starting_items": [
+            "Doran's Blade",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Blade of The Ruined King",
+            "Hullbreaker",
+            "Wit's End"
+        ],
+        "boots": "Plated Steelcaps",
+        "situational": [
+            "Death's Dance",
+            "Guardian Angel",
+            "Guardian Angel"
+        ]
+    },
+    "Ivern": {
+        "role": "Jungle",
+        "starting_items": [
+            "Gustwalker Hatchling"
+        ],
+        "core_build": [
+            "Redemption",
+            "Moonstone Renewer",
+            "Ardent Censer"
+        ],
+        "boots": "Ionian Boots of Lucidity",
+        "situational": [
+            "Mejai's Soulstealer",
+            "Mejai's Soulstealer",
+            "Rylai's Crystal Scepter"
+        ]
+    },
+    "Janna": {
+        "role": "Support",
+        "starting_items": [
+            "Health Potion",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Moonstone Renewer",
+            "Redemption",
+            "Shurelya's Battlesong"
+        ],
+        "boots": "Boots of Swiftness",
+        "situational": [
+            "Dawncore",
+            "Shurelya's Battlesong",
+            "Dawncore"
+        ]
+    },
+    "JarvanIV": {
+        "role": "Jungle",
+        "starting_items": [
+            "Scorchclaw Pup",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Sundered Sky",
+            "Black Cleaver",
+            "Guardian Angel"
+        ],
+        "boots": "Plated Steelcaps",
+        "situational": [
+            "Guardian Angel",
+            "Guardian Angel",
+            "Youmuu's Ghostblade"
+        ]
+    },
+    "Jax": {
+        "role": "Top",
+        "starting_items": [
+            "Doran's Blade",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Trinity Force",
+            "Sundered Sky",
+            "Zhonya's Hourglass"
+        ],
+        "boots": "Plated Steelcaps",
+        "situational": [
+            "Sundered Sky",
+            "Sterak's Gage",
+            "Sterak's Gage"
+        ]
+    },
+    "Jayce": {
+        "role": "Top",
+        "starting_items": [
+            "Doran's Blade",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Tear of the Goddess",
+            "Youmuu's Ghostblade",
+            "Muramana"
+        ],
+        "boots": "Ionian Boots of Lucidity",
+        "situational": [
+            "Serylda's Grudge",
+            "Guardian Angel",
+            "Guardian Angel"
+        ]
+    },
+    "Jhin": {
+        "role": "Bottom",
+        "starting_items": [
+            "Doran's Blade",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Hubris",
+            "The Collector",
+            "Infinity Edge"
+        ],
+        "boots": "Boots of Swiftness",
+        "situational": [
+            "Lord Dominik's Regards",
+            "Guardian Angel",
+            "Guardian Angel"
+        ]
+    },
+    "Jinx": {
+        "role": "Bottom",
+        "starting_items": [
+            "Doran's Blade",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Hexoptics C44",
+            "Phantom Dancer",
+            "Infinity Edge"
+        ],
+        "boots": "Berserker's Greaves",
+        "situational": [
+            "Lord Dominik's Regards",
+            "Guardian Angel",
+            "Guardian Angel"
+        ]
+    },
+    "KSante": {
+        "role": "Top",
+        "starting_items": [
+            "Doran's Helm",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Iceborn Gauntlet",
+            "Unending Despair",
+            "Jak'Sho, The Protean"
+        ],
+        "boots": "Plated Steelcaps",
+        "situational": [
+            "Unending Despair",
+            "Protoplasm Harness",
+            "Zeke's Convergence"
+        ]
+    },
+    "Kaisa": {
+        "role": "Bottom",
+        "starting_items": [
+            "Doran's Blade",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Kraken Slayer",
+            "Guinsoo's Rageblade",
+            "Dusk and Dawn"
+        ],
+        "boots": "Berserker's Greaves",
+        "situational": [
+            "Infinity Edge",
+            "Dusk and Dawn",
+            "Guardian Angel"
+        ]
+    },
+    "Kalista": {
+        "role": "Bottom",
+        "starting_items": [
+            "Doran's Bow",
+            "Health Potion",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Blade of The Ruined King",
+            "Guinsoo's Rageblade",
+            "Terminus"
+        ],
+        "boots": "Berserker's Greaves",
+        "situational": [
+            "Runaan's Hurricane",
+            "Guardian Angel",
+            "Guardian Angel"
+        ]
+    },
+    "Karma": {
+        "role": "Support",
+        "starting_items": [
+            "Spellthief's Edge",
+            "Health Potion",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Moonstone Renewer",
+            "Redemption",
+            "Ardent Censer"
+        ],
+        "boots": "Ionian Boots of Lucidity",
+        "situational": [
+            "Mejai's Soulstealer",
+            "Ardent Censer",
+            "Dawncore"
+        ]
+    },
+    "Karthus": {
+        "role": "Jungle",
+        "starting_items": [
+            "Scorchclaw Pup",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Blackfire Torch",
+            "Shadowflame",
+            "Rabadon's Deathcap"
+        ],
+        "boots": "Sorcerer's Shoes",
+        "situational": [
+            "Stormsurge",
+            "Stormsurge",
+            "Stormsurge"
+        ]
+    },
+    "Kassadin": {
+        "role": "Middle",
+        "starting_items": [
+            "Doran's Ring",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Rod of Ages",
+            "Archangel's Staff",
+            "Malignance"
+        ],
+        "boots": "Sorcerer's Shoes",
+        "situational": [
+            "Rabadon's Deathcap",
+            "Void Staff",
+            "Zhonya's Hourglass"
+        ]
+    },
+    "Katarina": {
+        "role": "Middle",
+        "starting_items": [
+            "Doran's Ring",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Hextech Gunblade",
+            "Shadowflame",
+            "Rabadon's Deathcap"
+        ],
+        "boots": "Sorcerer's Shoes",
+        "situational": [
+            "Zhonya's Hourglass",
+            "Void Staff",
+            "Lich Bane"
+        ]
+    },
+    "Kayle": {
+        "role": "Top",
+        "starting_items": [
+            "Doran's Blade",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Blade of the Ruined King",
+            "Kraken Slayer",
+            "Guinsoo's Rageblade"
+        ],
+        "boots": "Berserker's Greaves",
+        "situational": [
+            "Nashor's Tooth",
+            "Terminus",
+            "Randuin's Omen"
+        ]
+    },
+    "Kayn": {
+        "role": "Jungle",
+        "starting_items": [
+            "Hailblade",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Eclipse",
+            "Youmuu's Ghostblade",
+            "Edge of Night"
+        ],
+        "boots": "Ionian Boots of Lucidity",
+        "situational": [
+            "Serylda's Grudge",
+            "Black Cleaver",
+            "Maw of Malmortius"
+        ]
+    },
+    "Kennen": {
+        "role": "Top",
+        "starting_items": [
+            "Doran's Blade",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Liandry's Torment",
+            "Zhonya's Hourglass",
+            "Shadowflame"
+        ],
+        "boots": "Sorcerer's Shoes",
+        "situational": [
+            "Void Staff",
+            "Rabadon's Deathcap",
+            "Morellonomicon"
+        ]
+    },
+    "Khaix": {
+        "role": "Jungle",
+        "starting_items": [
+            "Hailblade",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Eclipse",
+            "Youmuu's Ghostblade",
+            "Edge of Night"
+        ],
+        "boots": "Ionian Boots of Lucidity",
+        "situational": [
+            "Serylda's Grudge",
+            "Black Cleaver",
+            "Guardian Angel"
+        ]
+    },
+    "Khazix": {
+        "role": "Jungle",
+        "starting_items": [
+            "Gustwalker Hatchling",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Umbral Glaive",
+            "Bastionbreaker",
+            "Edge of Night"
+        ],
+        "boots": "Ionian Boots of Lucidity",
+        "situational": [
+            "Guardian Angel",
+            "Serylda's Grudge",
+            "Bastionbreaker"
+        ]
+    },
+    "Kindred": {
+        "role": "Jungle",
+        "starting_items": [
+            "Kraken Slayer Components",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Kraken Slayer",
+            "Terminus",
+            "Infinity Edge"
+        ],
+        "boots": "Plated Steelcaps",
+        "situational": [
+            "Guardian Angel",
+            "Lord Dominik's Regards",
+            "Mortal Reminder"
+        ]
+    },
+    "Kled": {
+        "role": "Top",
+        "starting_items": [
+            "Long Sword",
+            "Refillable Potion"
+        ],
+        "core_build": [
+            "Black Cleaver",
+            "Sterak's Gage",
+            "Death's Dance"
+        ],
+        "boots": "Plated Steelcaps",
+        "situational": [
+            "Maw of Malmortius",
+            "Titanic Hydra",
+            "Guardian Angel"
+        ]
+    },
+    "KogMaw": {
+        "role": "ADC",
+        "starting_items": [
+            "Doran's Blade",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Blade of the Ruined King",
+            "Guinsoo's Rageblade",
+            "Terminus"
+        ],
+        "boots": "Berserker's Greaves",
+        "situational": [
+            "Wit's End",
+            "Nashor's Tooth",
+            "Maw of Malmortius"
+        ]
+    },
+    "Leblanc": {
+        "role": "Middle",
+        "starting_items": [
+            "Doran's Ring",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Luden's Companion",
+            "Shadowflame",
+            "Rabadon's Deathcap"
+        ],
+        "boots": "Sorcerer's Shoes",
+        "situational": [
+            "Void Staff",
+            "Zhonya's Hourglass",
+            "Mejai's Soulstealer"
+        ]
+    },
+    "LeeSin": {
+        "role": "Jungle",
+        "starting_items": [
+            "Long Sword",
+            "Refillable Potion"
+        ],
+        "core_build": [
+            "Eclipse",
+            "Black Cleaver",
+            "Sterak's Gage"
+        ],
+        "boots": "Mercury's Treads",
+        "situational": [
+            "Death's Dance",
+            "Guardian Angel",
+            "Maw of Malmortius"
+        ]
+    },
+    "Leona": {
+        "role": "Support",
+        "starting_items": [
+            "Health Potion",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Solstice Sleigh",
+            "Locket of the Iron Solari",
+            "Frozen Heart"
+        ],
+        "boots": "Plated Steelcaps",
+        "situational": [
+            "Thornmail",
+            "Abyssal Mask",
+            "Knight's Vow"
+        ]
+    },
+    "Lillia": {
+        "role": "Jungle",
+        "starting_items": [
+            "Scorchclaw Pup",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Liandry's Torment",
+            "Demonic Embrace",
+            "Rylai's Crystal Scepter"
+        ],
+        "boots": "Sorcerer's Shoes",
+        "situational": [
+            "Zhonya's Hourglass",
+            "Void Staff",
+            "Cosmic Drive"
+        ]
+    },
+    "Lissandra": {
+        "role": "Middle",
+        "starting_items": [
+            "Doran's Ring",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Liandry's Torment",
+            "Shadowflame",
+            "Zhonya's Hourglass"
+        ],
+        "boots": "Sorcerer's Shoes",
+        "situational": [
+            "Void Staff",
+            "Rabadon's Deathcap",
+            "Cosmic Drive"
+        ]
+    },
+    "Lucian": {
+        "role": "ADC",
+        "starting_items": [
+            "Doran's Blade",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Essence Reaver",
+            "Infinity Edge",
+            "Rapid Firecannon"
+        ],
+        "boots": "Berserker's Greaves",
+        "situational": [
+            "Bloodthirster",
+            "Guardian Angel",
+            "Lord Dominik's Regards"
+        ]
+    },
+    "Lulu": {
+        "role": "Support",
+        "starting_items": [
+            "Health Potion",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Dream Maker",
+            "Moonstone Renewer",
+            "Ardent Censer"
+        ],
+        "boots": "Ionian Boots of Lucidity",
+        "situational": [
+            "Staff of Flowing Water",
+            "Redemption",
+            "Mikael's Blessing"
+        ]
+    },
+    "Lux": {
+        "role": "Support",
+        "starting_items": [
+            "Spellthief's Edge",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Zaz'Zak's Realmspike",
+            "Luden's Companion",
+            "Shadowflame"
+        ],
+        "boots": "Sorcerer's Shoes",
+        "situational": [
+            "Rabadon's Deathcap",
+            "Void Staff",
+            "Zhonya's Hourglass"
+        ]
+    },
+    "Malphite": {
+        "role": "Top",
+        "starting_items": [
+            "Doran's Ring",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Iceborn Gauntlet",
+            "Thornmail",
+            "Abyssal Mask"
+        ],
+        "boots": "Plated Steelcaps",
+        "situational": [
+            "Randuin's Omen",
+            "Frozen Heart",
+            "Warmog's Armor"
+        ]
+    },
+    "Malzahar": {
+        "role": "Middle",
+        "starting_items": [
+            "Doran's Ring",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Liandry's Torment",
+            "Rylai's Crystal Scepter",
+            "Demonic Embrace"
+        ],
+        "boots": "Sorcerer's Shoes",
+        "situational": [
+            "Zhonya's Hourglass",
+            "Void Staff",
+            "Shadowflame"
+        ]
+    },
+    "Maokai": {
+        "role": "Support",
+        "starting_items": [
+            "Health Potion",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Solstice Sleigh",
+            "Locket of the Iron Solari",
+            "Frozen Heart"
+        ],
+        "boots": "Plated Steelcaps",
+        "situational": [
+            "Thornmail",
+            "Abyssal Mask",
+            "Knight's Vow"
+        ]
+    },
+    "MasterYi": {
+        "role": "Jungle",
+        "starting_items": [
+            "Long Sword",
+            "Refillable Potion"
+        ],
+        "core_build": [
+            "Kraken Slayer",
+            "Guinsoo's Rageblade",
+            "Blade of the Ruined King"
+        ],
+        "boots": "Mercury's Treads",
+        "situational": [
+            "Death's Dance",
+            "Terminus",
+            "Wit's End"
+        ]
+    },
+    "Mel": {
+        "role": "Middle",
+        "starting_items": [
+            "Doran's Ring",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Liandry's Torment",
+            "Rylai's Crystal Scepter",
+            "Shadowflame"
+        ],
+        "boots": "Sorcerer's Shoes",
+        "situational": [
+            "Void Staff",
+            "Zhonya's Hourglass",
+            "Cosmic Drive"
+        ]
+    },
+    "Milio": {
+        "role": "Support",
+        "starting_items": [
+            "Health Potion",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Echoes of Helia",
+            "Moonstone Renewer",
+            "Ardent Censer"
+        ],
+        "boots": "Ionian Boots of Lucidity",
+        "situational": [
+            "Dawncore",
+            "Redemption",
+            "Shurelya's Battlesong"
+        ]
+    },
+    "MissFortune": {
+        "role": "ADC",
+        "starting_items": [
+            "Doran's Blade",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Eclipse",
+            "Collector",
+            "Lord Dominik's Regards"
+        ],
+        "boots": "Berserker's Greaves",
+        "situational": [
+            "Infinity Edge",
+            "Black Cleaver",
+            "Edge of Night"
+        ]
+    },
+    "MonkeyKing": {
+        "role": "Jungle",
+        "starting_items": [
+            "Gustwalker Hatchling",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Trinity Force",
+            "Sundered Sky",
+            "Black Cleaver"
+        ],
+        "boots": "Plated Steelcaps",
+        "situational": [
+            "Guardian Angel",
+            "Death's Dance",
+            "Black Cleaver"
+        ]
+    },
+    "Mordekaiser": {
+        "role": "Top",
+        "starting_items": [
+            "Doran's Ring",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Riftmaker",
+            "Hextech Rocketbelt",
+            "Rylai's Crystal Scepter"
+        ],
+        "boots": "Plated Steelcaps",
+        "situational": [
+            "Spirit Visage",
+            "Zhonya's Hourglass",
+            "Liandry's Torment"
+        ]
+    },
+    "Morgana": {
+        "role": "Support",
+        "starting_items": [
+            "Health Potion",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Zaz'Zak's Realmspike",
+            "Luden's Companion",
+            "Shadowflame"
+        ],
+        "boots": "Ionian Boots of Lucidity",
+        "situational": [
+            "Zhonya's Hourglass",
+            "Rabadon's Deathcap",
+            "Morellonomicon"
+        ]
+    },
+    "Naafiri": {
+        "role": "Jungle",
+        "starting_items": [
+            "Hailblade",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Eclipse",
+            "Youmuu's Ghostblade",
+            "Black Cleaver"
+        ],
+        "boots": "Plated Steelcaps",
+        "situational": [
+            "Edge of Night",
+            "Serylda's Grudge",
+            "Guardian Angel"
+        ]
+    },
+    "Nami": {
+        "role": "Support",
+        "starting_items": [
+            "Health Potion",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Dream Maker",
+            "Moonstone Renewer",
+            "Ardent Censer"
+        ],
+        "boots": "Ionian Boots of Lucidity",
+        "situational": [
+            "Staff of Flowing Water",
+            "Redemption",
+            "Mikael's Blessing"
+        ]
+    },
+    "Nasus": {
+        "role": "Top",
+        "starting_items": [
+            "Doran's Shield",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Trinity Force",
+            "Frozen Heart",
+            "Spirit Visage"
+        ],
+        "boots": "Ionian Boots of Lucidity",
+        "situational": [
+            "Thornmail",
+            "Jak'Sho, The Protean",
+            "Dead Man's Plate"
+        ]
+    },
+    "Nautilus": {
+        "role": "Support",
+        "starting_items": [
+            "Health Potion"
+        ],
+        "core_build": [
+            "Locket of the Iron Solari",
+            "Bandlepipes",
+            "Knight's Vow"
+        ],
+        "boots": "Plated Steelcaps",
+        "situational": [
+            "Protoplasm Harness",
+            "Thornmail",
+            "Knight's Vow"
+        ]
+    },
+    "Neeko": {
+        "role": "Support",
+        "starting_items": [
+            "Health Potion",
+            "Health Potion",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Hextech Rocketbelt",
+            "Zhonya's Hourglass",
+            "Morellonomicon"
+        ],
+        "boots": "Ionian Boots of Lucidity",
+        "situational": [
+            "Morellonomicon",
+            "Rabadon's Deathcap",
+            "Shadowflame"
+        ]
+    },
+    "Nidalee": {
+        "role": "Jungle",
+        "starting_items": [
+            "Scorchclaw Pup",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Lich Bane",
+            "Hextech Rocketbelt",
+            "Zhonya's Hourglass"
+        ],
+        "boots": "Sorcerer's Shoes",
+        "situational": [
+            "Rabadon's Deathcap",
+            "Zhonya's Hourglass",
+            "Void Staff"
+        ]
+    },
+    "Nilah": {
+        "role": "ADC",
+        "starting_items": [
+            "Doran's Blade",
+            "Health Potion"
+        ],
+        "core_build": [
+            "The Collector",
+            "Infinity Edge",
+            "Lord Dominik's Regards"
+        ],
+        "boots": "Berserker's Greaves",
+        "situational": [
+            "Immortal Shieldbow",
+            "Death's Dance",
+            "Guardian Angel"
+        ]
+    },
+    "Nocturne": {
+        "role": "Jungle",
+        "starting_items": [
+            "Scorchclaw Pup",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Experimental Hexplate",
+            "Stridebreaker",
+            "Black Cleaver"
+        ],
+        "boots": "Plated Steelcaps",
+        "situational": [
+            "Guardian Angel",
+            "Death's Dance",
+            "Guardian Angel"
+        ]
+    },
+    "Nunu": {
+        "role": "Jungle",
+        "starting_items": [
+            "Gustwalker Hatchling",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Hextech Rocketbelt",
+            "Rabadon's Deathcap",
+            "Shadowflame"
+        ],
+        "boots": "Plated Steelcaps",
+        "situational": [
+            "Thornmail",
+            "Mejai's Soulstealer",
+            "Jak'Sho, The Protean"
+        ]
+    },
+    "Olaf": {
+        "role": "Top",
+        "starting_items": [
+            "Doran's Blade",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Ravenous Hydra",
+            "Experimental Hexplate",
+            "Death's Dance"
+        ],
+        "boots": "Plated Steelcaps",
+        "situational": [
+            "Death's Dance",
+            "Infinity Edge",
+            "Dead Man's Plate"
+        ]
+    },
+    "Orianna": {
+        "role": "Middle",
+        "starting_items": [
+            "Doran's Ring",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Luden's Echo",
+            "Shadowflame",
+            "Rabadon's Deathcap"
+        ],
+        "boots": "Sorcerer's Shoes",
+        "situational": [
+            "Rabadon's Deathcap",
+            "Void Staff",
+            "Cosmic Drive"
+        ]
+    },
+    "Ornn": {
+        "role": "Top",
+        "starting_items": [
+            "Doran's Shield",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Sunfire Aegis",
+            "Thornmail",
+            "Jak'Sho, The Protean"
+        ],
+        "boots": "Plated Steelcaps",
+        "situational": [
+            "Jak'Sho, The Protean",
+            "Protoplasm Harness",
+            "Protoplasm Harness"
+        ]
+    },
+    "Pantheon": {
+        "role": "Support",
+        "starting_items": [
+            "Health Potion"
+        ],
+        "core_build": [
+            "Umbral Glaive",
+            "Eclipse",
+            "Black Cleaver"
+        ],
+        "boots": "Plated Steelcaps",
+        "situational": [
+            "Sundered Sky",
+            "Youmuu's Ghostblade",
+            "Guardian Angel"
+        ]
+    },
+    "Poppy": {
+        "role": "Support",
+        "starting_items": [
+            "Health Potion",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Dead Man's Plate",
+            "Locket of the Iron Solari",
+            "Bandlepipes"
+        ],
+        "boots": "Boots of Swiftness",
+        "situational": [
+            "Protoplasm Harness",
+            "Bandlepipes",
+            "Thornmail"
+        ]
+    },
+    "Pyke": {
+        "role": "Support",
+        "starting_items": [
+            "Health Potion",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Umbral Glaive",
+            "Youmuu's Ghostblade",
+            "Edge of Night"
+        ],
+        "boots": "Boots of Swiftness",
+        "situational": [
+            "Edge of Night",
+            "Youmuu's Ghostblade",
+            "Guardian Angel"
+        ]
+    },
+    "Qiyana": {
+        "role": "Middle",
+        "starting_items": [
+            "Doran's Blade",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Voltaic Cyclosword",
+            "Profane Hydra",
+            "Serylda's Grudge"
+        ],
+        "boots": "Ionian Boots of Lucidity",
+        "situational": [
+            "Edge of Night",
+            "Guardian Angel",
+            "Youmuu's Ghostblade"
+        ]
+    },
+    "Quinn": {
+        "role": "Top",
+        "starting_items": [
+            "Doran's Blade",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Profane Hydra",
+            "The Collector",
+            "Edge of Night"
+        ],
+        "boots": "Berserker's Greaves",
+        "situational": [
+            "Infinity Edge",
+            "Lord Dominik's Regards",
+            "Guardian Angel"
+        ]
+    },
+    "Rakan": {
+        "role": "Support",
+        "starting_items": [
+            "Health Potion",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Zeke's Convergence",
+            "Locket of the Iron Solari",
+            "Bandlepipes"
+        ],
+        "boots": "Ionian Boots of Lucidity",
+        "situational": [
+            "Knight's Vow",
+            "Shurelya's Battlesong",
+            "Redemption"
+        ]
+    },
+    "Rammus": {
+        "role": "Jungle",
+        "starting_items": [
+            "Gustwalker Hatchling",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Thornmail",
+            "Sunfire Aegis",
+            "Jak'Sho, The Protean"
+        ],
+        "boots": "Plated Steelcaps",
+        "situational": [
+            "Protoplasm Harness",
+            "Randuin's Omen",
+            "Dead Man's Plate"
+        ]
+    },
+    "RekSai": {
+        "role": "Jungle",
+        "starting_items": [
+            "Scorchclaw Pup",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Stridebreaker",
+            "Spear of Shojin",
+            "Sterak's Gage"
+        ],
+        "boots": "Plated Steelcaps",
+        "situational": [
+            "Death's Dance",
+            "Guardian Angel",
+            "Guardian Angel"
+        ]
+    },
+    "Rell": {
+        "role": "Support",
+        "starting_items": [
+            "Health Potion",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Zeke's Convergence",
+            "Locket of the Iron Solari",
+            "Knight's Vow"
+        ],
+        "boots": "Plated Steelcaps",
+        "situational": [
+            "Protoplasm Harness",
+            "Knight's Vow",
+            "Kaenic Rookern"
+        ]
+    },
+    "Renata": {
+        "role": "Support",
+        "starting_items": [
+            "Health Potion",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Locket of the Iron Solari",
+            "Bandlepipes",
+            "Redemption"
+        ],
+        "boots": "Ionian Boots of Lucidity",
+        "situational": [
+            "Shurelya's Battlesong",
+            "Redemption",
+            "Ardent Censer"
+        ]
+    },
+    "Renekton": {
+        "role": "Top",
+        "starting_items": [
+            "Doran's Blade",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Eclipse",
+            "Black Cleaver",
+            "Sterak's Gage"
+        ],
+        "boots": "Plated Steelcaps",
+        "situational": [
+            "Death's Dance",
+            "Guardian Angel",
+            "Guardian Angel"
+        ]
+    },
+    "Rengar": {
+        "role": "Jungle",
+        "starting_items": [
+            "Long Sword",
+            "Refillable Potion"
+        ],
+        "core_build": [
+            "Eclipse",
+            "The Collector",
+            "Edge of Night"
+        ],
+        "boots": "Ionian Boots of Lucidity",
+        "situational": [
+            "Serylda's Grudge",
+            "Guardian Angel",
+            "Youmuu's Ghostblade"
+        ]
+    },
+    "Riven": {
+        "role": "Top",
+        "starting_items": [
+            "Doran's Blade",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Axiom Arc",
+            "Sundered Sky",
+            "Death's Dance"
+        ],
+        "boots": "Ionian Boots of Lucidity",
+        "situational": [
+            "Serylda's Grudge",
+            "Endless Hunger",
+            "Guardian Angel"
+        ]
+    },
+    "Rumble": {
+        "role": "Top",
+        "starting_items": [
+            "Doran's Ring",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Liandry's Torment",
+            "Bloodletter's Curse",
+            "Zhonya's Hourglass"
+        ],
+        "boots": "Sorcerer's Shoes",
+        "situational": [
+            "Rabadon's Deathcap",
+            "Rabadon's Deathcap",
+            "Shadowflame"
+        ]
+    },
+    "Ryze": {
+        "role": "Middle",
+        "starting_items": [
+            "Doran's Ring",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Tear of the Goddess",
+            "Rod of Ages",
+            "Seraph's Embrace"
+        ],
+        "boots": "Mercury's Treads",
+        "situational": [
+            "Rabadon's Deathcap",
+            "Zhonya's Hourglass",
+            "Cosmic Drive"
+        ]
+    },
+    "Samira": {
+        "role": "ADC",
+        "starting_items": [
+            "Doran's Blade",
+            "Health Potion"
+        ],
+        "core_build": [
+            "The Collector",
+            "Infinity Edge",
+            "Lord Dominik's Regards"
+        ],
+        "boots": "Plated Steelcaps",
+        "situational": [
+            "Immortal Shieldbow",
+            "Bloodthirster",
+            "Guardian Angel"
+        ]
+    },
+    "Sejuani": {
+        "role": "Jungle",
+        "starting_items": [
+            "Mosstomper Seedling",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Heartsteel",
+            "Unending Despair",
+            "Thornmail"
+        ],
+        "boots": "Plated Steelcaps",
+        "situational": [
+            "Thornmail",
+            "Jak'Sho, The Protean",
+            "Jak'Sho, The Protean"
+        ]
+    },
+    "Senna": {
+        "role": "Support",
+        "starting_items": [
+            "Health Potion"
+        ],
+        "core_build": [
+            "Black Cleaver",
+            "Rapid Firecannon",
+            "Infinity Edge"
+        ],
+        "boots": "Boots of Swiftness",
+        "situational": [
+            "Infinity Edge",
+            "Guardian Angel",
+            "Phantom Dancer"
+        ]
+    },
+    "Seraphine": {
+        "role": "Support",
+        "starting_items": [
+            "Health Potion",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Tear of the Goddess",
+            "Echoes of Helia",
+            "Diadem of Songs"
+        ],
+        "boots": "Ionian Boots of Lucidity",
+        "situational": [
+            "Dawncore",
+            "Redemption",
+            "Shurelya's Battlesong"
+        ]
+    },
+    "Sett": {
+        "role": "Top",
+        "starting_items": [
+            "Doran's Blade",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Stridebreaker",
+            "Overlord's Bloodmail",
+            "Sterak's Gage"
+        ],
+        "boots": "Plated Steelcaps",
+        "situational": [
+            "Warmog's Armor",
+            "Spear of Shojin",
+            "Dead Man's Plate"
+        ]
+    },
+    "Shaco": {
+        "role": "Jungle",
+        "starting_items": [
+            "Gustwalker Hatchling",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Youmuu's Ghostblade",
+            "The Collector",
+            "Infinity Edge"
+        ],
+        "boots": "Ionian Boots of Lucidity",
+        "situational": [
+            "Rabadon's Deathcap",
+            "Guardian Angel",
+            "Phantom Dancer"
+        ]
+    },
+    "Shen": {
+        "role": "Top",
+        "starting_items": [
+            "Doran's Shield",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Titanic Hydra",
+            "Dusk and Dawn",
+            "Protoplasm Harness"
+        ],
+        "boots": "Plated Steelcaps",
+        "situational": [
+            "Protoplasm Harness",
+            "Thornmail",
+            "Dead Man's Plate"
+        ]
+    },
+    "Shyvana": {
+        "role": "Jungle",
+        "starting_items": [
+            "Scorchclaw Pup"
+        ],
+        "core_build": [
+            "Kraken Slayer",
+            "Dusk and Dawn",
+            "Sundered Sky"
+        ],
+        "boots": "Gluttonous Greaves",
+        "situational": [
+            "Sundered Sky",
+            "Riftmaker",
+            "Dead Man's Plate"
+        ]
+    },
+    "Singed": {
+        "role": "Top",
+        "starting_items": [
+            "Doran's Ring",
+            "Health Potion",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Liandry's Torment",
+            "Rylai's Crystal Scepter",
+            "Protoplasm Harness"
+        ],
+        "boots": "Boots of Swiftness",
+        "situational": [
+            "Riftmaker",
+            "Protoplasm Harness",
+            "Dead Man's Plate"
+        ]
+    },
+    "Sion": {
+        "role": "Top",
+        "starting_items": [
+            "Doran's Shield",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Hollow Radiance",
+            "Unending Despair",
+            "Jak'Sho, The Protean"
+        ],
+        "boots": "Plated Steelcaps",
+        "situational": [
+            "Titanic Hydra",
+            "Overlord's Bloodmail",
+            "Jak'Sho, The Protean"
+        ]
+    },
+    "Sivir": {
+        "role": "Bottom",
+        "starting_items": [
+            "Doran's Blade",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Essence Reaver",
+            "Navori Flickerblade",
+            "Infinity Edge"
+        ],
+        "boots": "Berserker's Greaves",
+        "situational": [
+            "Bloodthirster",
+            "Guardian Angel",
+            "Guardian Angel"
+        ]
+    },
+    "Skarner": {
+        "role": "Jungle",
+        "starting_items": [
+            "Mosstomper Seedling",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Heartsteel",
+            "Unending Despair",
+            "Spirit Visage"
+        ],
+        "boots": "Plated Steelcaps",
+        "situational": [
+            "Jak'Sho, The Protean",
+            "Jak'Sho, The Protean",
+            "Bandlepipes"
+        ]
+    },
+    "Smolder": {
+        "role": "Bottom",
+        "starting_items": [
+            "Doran's Blade",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Essence Reaver",
+            "Black Cleaver",
+            "Spear of Shojin"
+        ],
+        "boots": "Gluttonous Greaves",
+        "situational": [
+            "Endless Hunger",
+            "Guardian Angel",
+            "Guardian Angel"
+        ]
+    },
+    "Sona": {
+        "role": "Support",
+        "starting_items": [
+            "Health Potion",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Tear of the Goddess",
+            "Echoes of Helia",
+            "Diadem of Songs"
+        ],
+        "boots": "Boots of Swiftness",
+        "situational": [
+            "Staff of Flowing Water",
+            "Staff of Flowing Water",
+            "Shurelya's Battlesong"
+        ]
+    },
+    "Soraka": {
+        "role": "Support",
+        "starting_items": [
+            "Health Potion",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Moonstone Renewer",
+            "Redemption",
+            "Dawncore"
+        ],
+        "boots": "Ionian Boots of Lucidity",
+        "situational": [
+            "Dawncore",
+            "Mikael's Blessing",
+            "Staff of Flowing Water"
+        ]
+    },
+    "Swain": {
+        "role": "Support",
+        "starting_items": [
+            "Health Potion",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Rylai's Crystal Scepter",
+            "Zhonya's Hourglass",
+            "Liandry's Torment"
+        ],
+        "boots": "Sorcerer's Shoes",
+        "situational": [
+            "Unending Despair",
+            "Liandry's Torment",
+            "Thornmail"
+        ]
+    },
+    "Sylas": {
+        "role": "Middle",
+        "starting_items": [
+            "Doran's Ring",
+            "Health Potion",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Hextech Rocketbelt",
+            "Riftmaker",
+            "Zhonya's Hourglass"
+        ],
+        "boots": "Sorcerer's Shoes",
+        "situational": [
+            "Mejai's Soulstealer",
+            "Mejai's Soulstealer",
+            "Cosmic Drive"
+        ]
+    },
+    "Syndra": {
+        "role": "Middle",
+        "starting_items": [
+            "Doran's Ring",
+            "Health Potion",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Luden's Echo",
+            "Shadowflame",
+            "Rabadon's Deathcap"
+        ],
+        "boots": "Sorcerer's Shoes",
+        "situational": [
+            "Rabadon's Deathcap",
+            "Rabadon's Deathcap",
+            "Cosmic Drive"
+        ]
+    },
+    "TahmKench": {
+        "role": "Support",
+        "starting_items": [
+            "Health Potion",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Heartsteel",
+            "Dusk and Dawn",
+            "Spirit Visage"
+        ],
+        "boots": "Plated Steelcaps",
+        "situational": [
+            "Protoplasm Harness",
+            "Warmog's Armor",
+            "Bandlepipes"
+        ]
+    },
+    "Taliyah": {
+        "role": "Middle",
+        "starting_items": [
+            "Doran's Ring",
+            "Health Potion",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Seraph's Embrace",
+            "Rylai's Crystal Scepter",
+            "Liandry's Torment"
+        ],
+        "boots": "Ionian Boots of Lucidity",
+        "situational": [
+            "Rabadon's Deathcap",
+            "Cryptbloom",
+            "Cosmic Drive"
+        ]
+    },
+    "Talon": {
+        "role": "Jungle",
+        "starting_items": [
+            "Scorchclaw Pup"
+        ],
+        "core_build": [
+            "Voltaic Cyclosword",
+            "Umbral Glaive",
+            "Youmuu's Ghostblade"
+        ],
+        "boots": "Boots of Swiftness",
+        "situational": [
+            "Axiom Arc",
+            "Guardian Angel",
+            "Guardian Angel"
+        ]
+    },
+    "Taric": {
+        "role": "Support",
+        "starting_items": [
+            "Health Potion",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Tear of the Goddess",
+            "Locket of the Iron Solari",
+            "Fimbulwinter"
+        ],
+        "boots": "Plated Steelcaps",
+        "situational": [
+            "Knight's Vow",
+            "Force of Nature",
+            "Moonstone Renewer"
+        ]
+    },
+    "Teemo": {
+        "role": "Top",
+        "starting_items": [
+            "Doran's Ring",
+            "Health Potion",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Statikk Shiv",
+            "Liandry's Torment",
+            "Malignance"
+        ],
+        "boots": "Sorcerer's Shoes",
+        "situational": [
+            "Shadowflame",
+            "Shadowflame",
+            "Stormsurge"
+        ]
+    },
+    "Thresh": {
+        "role": "Support",
+        "starting_items": [
+            "Health Potion",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Locket of the Iron Solari",
+            "Zeke's Convergence",
+            "Knight's Vow"
+        ],
+        "boots": "Boots of Swiftness",
+        "situational": [
+            "Bandlepipes",
+            "Knight's Vow",
+            "Frozen Heart"
+        ]
+    },
+    "Tristana": {
+        "role": "Bottom",
+        "starting_items": [
+            "Doran's Blade",
+            "Health Potion"
+        ],
+        "core_build": [
+            "The Collector",
+            "Infinity Edge",
+            "Navori Flickerblade"
+        ],
+        "boots": "Berserker's Greaves",
+        "situational": [
+            "Lord Dominik's Regards",
+            "Guardian Angel",
+            "Guardian Angel"
+        ]
+    },
+    "Trundle": {
+        "role": "Top",
+        "starting_items": [
+            "Doran's Blade",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Ravenous Hydra",
+            "Trinity Force",
+            "Hullbreaker"
+        ],
+        "boots": "Plated Steelcaps",
+        "situational": [
+            "Hullbreaker",
+            "Spirit Visage",
+            "Hullbreaker"
+        ]
+    },
+    "Tryndamere": {
+        "role": "Top",
+        "starting_items": [
+            "Doran's Blade",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Ravenous Hydra",
+            "Phantom Dancer",
+            "Infinity Edge"
+        ],
+        "boots": "Berserker's Greaves",
+        "situational": [
+            "Endless Hunger",
+            "Endless Hunger",
+            "Youmuu's Ghostblade"
+        ]
+    },
+    "TwistedFate": {
+        "role": "Middle",
+        "starting_items": [
+            "Doran's Ring",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Rod of Ages",
+            "Lich Bane",
+            "Rapid Firecannon"
+        ],
+        "boots": "Boots of Swiftness",
+        "situational": [
+            "Mejai's Soulstealer",
+            "Mejai's Soulstealer",
+            "Stormsurge"
+        ]
+    },
+    "Twitch": {
+        "role": "Bottom",
+        "starting_items": [
+            "Doran's Blade",
+            "Health Potion"
+        ],
+        "core_build": [
+            "The Collector",
+            "Fiendhunter Bolts",
+            "Infinity Edge"
+        ],
+        "boots": "Berserker's Greaves",
+        "situational": [
+            "Hexoptics C44",
+            "Bloodthirster",
+            "Guardian Angel"
+        ]
+    },
+    "Udyr": {
+        "role": "Jungle",
+        "starting_items": [
+            "Gustwalker Hatchling"
+        ],
+        "core_build": [
+            "Spear of Shojin",
+            "Sundered Sky",
+            "Sterak's Gage"
+        ],
+        "boots": "Boots of Swiftness",
+        "situational": [
+            "Sterak's Gage",
+            "Mejai's Soulstealer",
+            "Dead Man's Plate"
+        ]
+    },
+    "Urgot": {
+        "role": "Top",
+        "starting_items": [
+            "Doran's Blade",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Black Cleaver",
+            "Sterak's Gage",
+            "Jak'Sho, The Protean"
+        ],
+        "boots": "Plated Steelcaps",
+        "situational": [
+            "Overlord's Bloodmail",
+            "Overlord's Bloodmail",
+            "Guardian Angel"
+        ]
+    },
+    "Varus": {
+        "role": "Bottom",
+        "starting_items": [
+            "Doran's Blade",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Statikk Shiv",
+            "Guinsoo's Rageblade",
+            "Terminus"
+        ],
+        "boots": "Boots of Swiftness",
+        "situational": [
+            "Jak'Sho, The Protean",
+            "Guardian Angel",
+            "Jak'Sho, The Protean"
+        ]
+    },
+    "Vayne": {
+        "role": "Bottom",
+        "starting_items": [
+            "Doran's Blade",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Blade of The Ruined King",
+            "Guinsoo's Rageblade",
+            "Terminus"
+        ],
+        "boots": "Berserker's Greaves",
+        "situational": [
+            "Experimental Hexplate",
+            "Jak'Sho, The Protean",
+            "Guardian Angel"
+        ]
+    },
+    "Veigar": {
+        "role": "Middle",
+        "starting_items": [
+            "Doran's Ring",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Tear of the Goddess",
+            "Rod of Ages",
+            "Seraph's Embrace"
+        ],
+        "boots": "Sorcerer's Shoes",
+        "situational": [
+            "Zhonya's Hourglass",
+            "Zhonya's Hourglass",
+            "Banshee's Veil"
+        ]
+    },
+    "Velkoz": {
+        "role": "Support",
+        "starting_items": [
+            "Health Potion"
+        ],
+        "core_build": [
+            "Luden's Echo",
+            "Shadowflame",
+            "Zhonya's Hourglass"
+        ],
+        "boots": "Sorcerer's Shoes",
+        "situational": [
+            "Shadowflame",
+            "Zhonya's Hourglass",
+            "Rabadon's Deathcap"
+        ]
+    },
+    "Vex": {
+        "role": "Middle",
+        "starting_items": [
+            "Doran's Ring",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Luden's Echo",
+            "Shadowflame",
+            "Zhonya's Hourglass"
+        ],
+        "boots": "Sorcerer's Shoes",
+        "situational": [
+            "Shadowflame",
+            "Zhonya's Hourglass",
+            "Banshee's Veil"
+        ]
+    },
+    "Vi": {
+        "role": "Jungle",
+        "starting_items": [
+            "Gustwalker Hatchling",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Sundered Sky",
+            "Black Cleaver",
+            "Guardian Angel"
+        ],
+        "boots": "Plated Steelcaps",
+        "situational": [
+            "Guardian Angel",
+            "Guardian Angel",
+            "Infinity Edge"
+        ]
+    },
+    "Viego": {
+        "role": "Jungle",
+        "starting_items": [
+            "Gustwalker Hatchling",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Kraken Slayer",
+            "The Collector",
+            "Immortal Shieldbow"
+        ],
+        "boots": "Plated Steelcaps",
+        "situational": [
+            "Guardian Angel",
+            "Lord Dominik's Regards",
+            "Phantom Dancer"
+        ]
+    },
+    "Viktor": {
+        "role": "Middle",
+        "starting_items": [
+            "Doran's Ring",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Blackfire Torch",
+            "Liandry's Torment",
+            "Zhonya's Hourglass"
+        ],
+        "boots": "Sorcerer's Shoes",
+        "situational": [
+            "Zhonya's Hourglass",
+            "Zhonya's Hourglass",
+            "Lich Bane"
+        ]
+    },
+    "Vladimir": {
+        "role": "Middle",
+        "starting_items": [
+            "Doran's Ring",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Hextech Rocketbelt",
+            "Riftmaker",
+            "Rabadon's Deathcap"
+        ],
+        "boots": "Ionian Boots of Lucidity",
+        "situational": [
+            "Mejai's Soulstealer",
+            "Mejai's Soulstealer",
+            "Zhonya's Hourglass"
+        ]
+    },
+    "Volibear": {
+        "role": "Top",
+        "starting_items": [
+            "Doran's Ring",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Dusk and Dawn",
+            "Navori Flickerblade",
+            "Spirit Visage"
+        ],
+        "boots": "Plated Steelcaps",
+        "situational": [
+            "Riftmaker",
+            "Spirit Visage",
+            "Riftmaker"
+        ]
+    },
+    "Warwick": {
+        "role": "Jungle",
+        "starting_items": [
+            "Gustwalker Hatchling"
+        ],
+        "core_build": [
+            "Stridebreaker",
+            "Blade of The Ruined King",
+            "Thornmail"
+        ],
+        "boots": "Plated Steelcaps",
+        "situational": [
+            "Sterak's Gage",
+            "Sterak's Gage",
+            "Jak'Sho, The Protean"
+        ]
+    },
+    "Xayah": {
+        "role": "Bottom",
+        "starting_items": [
+            "Doran's Blade",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Essence Reaver",
+            "Navori Flickerblade",
+            "Infinity Edge"
+        ],
+        "boots": "Berserker's Greaves",
+        "situational": [
+            "Lord Dominik's Regards",
+            "Guardian Angel",
+            "Guardian Angel"
+        ]
+    },
+    "Xerath": {
+        "role": "Middle",
+        "starting_items": [
+            "Doran's Ring",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Luden's Echo",
+            "Shadowflame",
+            "Rabadon's Deathcap"
+        ],
+        "boots": "Sorcerer's Shoes",
+        "situational": [
+            "Rabadon's Deathcap",
+            "Void Staff",
+            "Stormsurge"
+        ]
+    },
+    "XinZhao": {
+        "role": "Jungle",
+        "starting_items": [
+            "Gustwalker Hatchling",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Sundered Sky",
+            "Black Cleaver",
+            "Death's Dance"
+        ],
+        "boots": "Plated Steelcaps",
+        "situational": [
+            "Guardian Angel",
+            "Guardian Angel",
+            "Dead Man's Plate"
+        ]
+    },
+    "Yasuo": {
+        "role": "Middle",
+        "starting_items": [
+            "Doran's Bow",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Blade of The Ruined King",
+            "Immortal Shieldbow",
+            "Infinity Edge"
+        ],
+        "boots": "Berserker's Greaves",
+        "situational": [
+            "Guardian Angel",
+            "Guardian Angel",
+            "Guardian Angel"
+        ]
+    },
+    "Yone": {
+        "role": "Top",
+        "starting_items": [
+            "Doran's Bow",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Blade of The Ruined King",
+            "Immortal Shieldbow",
+            "Infinity Edge"
+        ],
+        "boots": "Berserker's Greaves",
+        "situational": [
+            "Death's Dance",
+            "Guardian Angel",
+            "Guardian Angel"
+        ]
+    },
+    "Yorick": {
+        "role": "Top",
+        "starting_items": [
+            "Doran's Shield",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Trinity Force",
+            "Spear of Shojin",
+            "Serylda's Grudge"
+        ],
+        "boots": "Plated Steelcaps",
+        "situational": [
+            "Sterak's Gage",
+            "Sterak's Gage",
+            "Dead Man's Plate"
+        ]
+    },
+    "Yuumi": {
+        "role": "Support",
+        "starting_items": [
+            "Health Potion"
+        ],
+        "core_build": [
+            "Ardent Censer",
+            "Moonstone Renewer",
+            "Mikael's Blessing"
+        ],
+        "boots": "Ionian Boots of Lucidity",
+        "situational": [
+            "Dawncore",
+            "Dawncore",
+            "Knight's Vow"
+        ]
+    },
+    "Zac": {
+        "role": "Jungle",
+        "starting_items": [
+            "Scorchclaw Pup"
+        ],
+        "core_build": [
+            "Hextech Rocketbelt",
+            "Sunfire Aegis",
+            "Spirit Visage"
+        ],
+        "boots": "Ionian Boots of Lucidity",
+        "situational": [
+            "Spirit Visage",
+            "Mejai's Soulstealer",
+            "Protoplasm Harness"
+        ]
+    },
+    "Zed": {
+        "role": "Middle",
+        "starting_items": [
+            "Doran's Blade",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Voltaic Cyclosword",
+            "Axiom Arc",
+            "Serylda's Grudge"
+        ],
+        "boots": "Ionian Boots of Lucidity",
+        "situational": [
+            "Endless Hunger",
+            "Endless Hunger",
+            "Guardian Angel"
+        ]
+    },
+    "Zeri": {
+        "role": "Bottom",
+        "starting_items": [
+            "Doran's Bow",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Yun Tal Wildarrows",
+            "Fiendhunter Bolts",
+            "Infinity Edge"
+        ],
+        "boots": "Berserker's Greaves",
+        "situational": [
+            "Hexoptics C44",
+            "Guardian Angel",
+            "Guardian Angel"
+        ]
+    },
+    "Ziggs": {
+        "role": "Bottom",
+        "starting_items": [
+            "Doran's Ring",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Luden's Echo",
+            "Horizon Focus",
+            "Shadowflame"
+        ],
+        "boots": "Sorcerer's Shoes",
+        "situational": [
+            "Rabadon's Deathcap",
+            "Zhonya's Hourglass",
+            "Void Staff"
+        ]
+    },
+    "Zilean": {
+        "role": "Support",
+        "starting_items": [
+            "Health Potion"
+        ],
+        "core_build": [
+            "Shurelya's Battlesong",
+            "Bandlepipes",
+            "Imperial Mandate"
+        ],
+        "boots": "Ionian Boots of Lucidity",
+        "situational": [
+            "Bandlepipes",
+            "Rabadon's Deathcap",
+            "Cosmic Drive"
+        ]
+    },
+    "Zoe": {
+        "role": "Middle",
+        "starting_items": [
+            "Doran's Ring",
+            "Health Potion"
+        ],
+        "core_build": [
+            "Luden's Echo",
+            "Shadowflame",
+            "Rabadon's Deathcap"
+        ],
+        "boots": "Sorcerer's Shoes",
+        "situational": [
+            "Mejai's Soulstealer",
+            "Mejai's Soulstealer",
+            "Void Staff"
+        ]
+    },
+    "Zyra": {
+        "role": "Support",
+        "starting_items": [
+            "Health Potion"
+        ],
+        "core_build": [
+            "Liandry's Torment",
+            "Rylai's Crystal Scepter",
+            "Morellonomicon"
+        ],
+        "boots": "Sorcerer's Shoes",
+        "situational": [
+            "Zhonya's Hourglass",
+            "Shadowflame",
+            "Malignance"
+        ]
     }
-  }
+}
