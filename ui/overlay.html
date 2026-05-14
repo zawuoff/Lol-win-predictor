@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            background-color: rgba(0, 0, 0, 0); 
+            color: #C8AA6E;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 4px;
+            overflow: hidden;
+        }
+        /* .container {
+            background: rgba(10, 20, 30, 0.85); 
+            border: 2px solid #C8AA6E;
+            border-radius: 8px;
+            padding: 15px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.5);
+        } */
+        h2 {
+            margin-top: 0;
+            border-bottom: 1px solid #5B5A56;
+            padding-bottom: 5px;
+            font-size: 20px;
+            text-transform: uppercase;
+        }
+        .build-text {
+            font-size: 16px;
+            /* line-height: 1.5; */
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2 id="champ-name">Champion</h2>
+        <div id="build-data" class="build-text">Loading build...</div>
+    </div>
+
+    <script>
+        // This function will be called by Python to "inject" the data
+        function displayBuild(name, items) {
+            document.getElementById('champ-name').innerText = name;
+            document.getElementById('build-data').innerText = items;
+        }
+    </script>
+</body>
+</html>
